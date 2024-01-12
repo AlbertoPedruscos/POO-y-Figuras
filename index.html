@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geometricas</title>
+    <link rel="stylesheet" href="estilos2.css">
+</head>
+<body>
+    <div class="centro" id="cen">
+        <div class="primero">
+            <form action="" method="post" onsubmit="return validar()">
+                <h1>Generar figura(cm)</h1>
+                <label for="">Seleccione la figura</label>
+                <br>
+                <select name="figura" id="figura">
+                    <option value="">Seleccione una opcion</option>
+                    <option value="tri">Triangulo</option>
+                    <option value="cua">Cuadrado</option>
+                    <option value="cir">Circulo</option>
+                    <option value="rec">Rectangulo</option>
+                </select>
+                <br>
+                <br>
+                <label for="">Lado 1</label>
+                <br>
+                <input type="number" id="lado1" name="lado1">
+                <br>
+                <br>
+                <label for="">Lado 2</label>
+                <br>
+                <input type="number" id="lado2" name="lado2">
+                <br>
+                <br>
+                <button>Generar</button>
+            </form>
+        </div>
+        <div id="resultado">
+            <h1>Figura Generada</h1>
+            <div id="tex"></div>
+            <img src="./fotos/inter.webp" alt="" class="fig" id="fig">
+        </div>
+    </div>
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="main.js"></script>

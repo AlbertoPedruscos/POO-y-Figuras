@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Exo+2:wght@500&family=Rubik&family=Silkscreen&family=Space+Grotesk:wght@700&display=swap');
+*{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Silkscreen', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(fondo1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fallo{
+    border: solid red 3px;
+}
+.custom-popup-class {
+    margin-top: 50px;
+}
+.centro{
+    border-radius: 5px;
+    background-color: white;
+    border: solid black 2px;
+    padding: 40px;
+}
+.input-container {
+    margin-bottom: 1rem;
+}
+
+input {
+    border: 1px solid #ccc;
+    padding: .5rem;
+}
+
+select {
+border: 1px solid #ccc;
+padding: .5rem;
+background-color: #fff;
+}
+
+label {
+font-weight: bold;
+}
+
+.input-container .error {
+color: red;
+}
+button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#resultado{
+    float: left;
+    background-color: white;
+    width: 300px;
+    text-align: center;
+}
+.primero{
+    float: left;
+    margin-right: 50px;
+}
+.fig{
+    width: 160px;
+}
